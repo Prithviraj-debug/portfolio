@@ -245,6 +245,14 @@ margin-bottom: 10px;
         flex-direction: column;
     }
 
+    .skills h1 {
+        font-size: 25px;
+    }
+
+    .skills h3 {
+        font-size: 21px;
+    }
+
     .developer {
         margin-top: 30px;
     }
