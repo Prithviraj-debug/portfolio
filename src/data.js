@@ -55,6 +55,13 @@ const data = [
         pic: "https://github.com/Prithviraj-debug/QRgenerator/blob/master/Screenshot%202021-08-15%20123653.png?raw=true",
         name: "QR Code Generator",
         link: "https://keen-khorana-0bde35.netlify.app/"
+    },
+
+    {
+        id: 9,
+        pic: "https://github.com/Prithviraj-debug/profile-card/blob/main/pic.png?raw=true",
+        name: "Profile Card",
+        link: "https://hopeful-fermi-c71412.netlify.app/"
     }
     
     // {
