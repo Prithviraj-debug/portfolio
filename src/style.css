@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('./card.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    /* width: 90%; */
+    margin: auto;
+}
+
+.navbar {
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 50px;
+}
+
+/* section one */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 75px);
+}
+
+.one .avatar img {
+    width: 220px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.one .designation {
+    font-size: 30px;
+    font-weight: bolder;
+    color: #001236;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.one .sub-heading {
+    font-size: 22px;
+    /* font-weight: bolder; */
+    text-transform: capitalize;
+}
+
+.one .down {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    z-index: 9999;
+}
+
+.down img {
+    padding: 0;
+    margin: 0;
+    width: 20px;
+}
+
+/* section two */
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two img {
+    width: 800px;
+
+    /* margin: 0 auto; */
+}
+
+.details {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.details .about {
+    margin-top: 50px;
+    background: #005AAD;
+    color: white;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.about h2 {
+    padding-top: 100px;
+}
+
+.about p {
+    padding-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 300;
+    line-height: 1.5;
+    font-family: "europa", sans-serif;
+    font-size: 1.25rem;
+}
+
+.skills {
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0 auto;
+    padding: 60px 150px 60px 150px;
+    box-shadow: 0px 0px 127px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 69px;
+    top: 320px;
+    background-color: white;
+    left: 50%;
+    transform: translate(-50%);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.skills h1 {
+    font-weight: bold;
+font-size: 30px;
+line-height: 47px;
+color: #001236;
+margin-bottom: 10px;
+}
+
+.skills h3 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #005AAD;
+}
+
+.skills p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tools ul {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tools li {
+    padding: 10px 0px 10px 0;
+}
+
+.projects {
+    margin-top: 760px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.projects .head h1 {
+    font-size: 30px;
+    color: #001236;
+}
+
+.projects .head p {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.projects .card .thumb {
+    /* width: 420px; */
+}
+
+
+/* responsive */
+
+@media (max-width: 1216px) {
+    .skills {
+        width: 80%;
+    }
+}
+  
+@media (max-width: 860px) {
+    
+    .about p {
+        width: 70%;
+    }
+    
+    .skills {
+        padding: 60px;
+
+    }
+}
+
+
+@media (max-width: 810px) {
+    .two img {
+        width: 500px;
+    }
+    .about p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .one .avatar img {
+        width: 170px;
+    }
+    
+    .one .designation {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+    
+    .one .sub-heading {
+        font-size: 13px;
+    }
+
+    .logo img {
+        width: 35px;
+    }
+
+    .two img {
+        width: 300px;
+    }
+
+    .about h2 {
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+
+    .skills {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .developer {
+        margin-top: 30px;
+    }
+
+    .projects {
+        margin-top: 1100px;
+    }
+}
+
+footer {
+    background: #005AAD;
+    text-align: center;
+    height: 400px;
+    color: white;
+}
+
+footer h1 {
+    margin-top: 40px;
+    padding-top: 80px;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+footer .socials i {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    transition: color .2s;
+}
+
+footer .socials i:hover {
+    color: rgb(182, 182, 182);
+}
+
+.mail {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.mob {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* 
+form {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+form h4 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    border: 1px solid rgba(177, 177, 177, 0.151);
+    height: 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: fit-content;
+    margin: 0 auto;
+    border: 1px solid rgba(177, 177, 177, 0.151);
+    display: block;
+    height: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    background-color: rgba(92, 108, 202, 0.726);
+}
+
+a img {
+    width: 70%;
+    height: 100%;
+    margin-top: 10px;
+    transition: .2s ease-in-out;
+}
+
+img:hover {
+    opacity: .9;
+}
+
+.card h4 {
+    font-size: 30px;
+    color: rgb(0, 11, 31);
+    padding-bottom: 10px;
+}
+
+.card {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+@media (max-width: 1010px) {
+    a img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 666px) {
+    a img {
+        width: 100%;
+    }
+
+    body {
+        width: 70%;
+    }
+
+    .card h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    
+    body {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    a img {
+        width: 100%;
+    }
+
+    .card {
+        padding-top: 10px;
+    }
+
+    form {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form h4 {
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
+} */
