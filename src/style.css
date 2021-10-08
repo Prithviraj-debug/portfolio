@@ -189,19 +189,20 @@ margin-bottom: 10px;
 
 .projects {
     margin-top: 760px;
+    padding-top: 50px;
     text-align: center;
     text-transform: capitalize;
 }
 
 .projects .head h1 {
-    font-size: 30px;
+    font-size: 40px;
     color: #001236;
 }
 
 .projects .head p {
     font-size: 20px;
     padding-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .projects .card .thumb {
@@ -250,8 +251,8 @@ margin-bottom: 10px;
 
     ul.links {
         width: 10em;
-        /* margin: 0 auto; */
-        margin-right: 10px;
+        margin: 0 auto;
+        /* margin-right: 10px; */
     }
 
     .links li {
