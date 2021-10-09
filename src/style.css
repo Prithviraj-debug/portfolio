@@ -334,7 +334,7 @@ margin-bottom: 10px;
 footer {
     background: #005AAD;
     text-align: center;
-    height: 400px;
+    height: fit-content;
     color: white;
 }
 
@@ -382,24 +382,21 @@ footer .socials i:hover {
 
 
 form {
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #005AAD;
-    width: 100%;
-}
-
-form h4 {
-    padding-top: 20px;
+    color: white;
     text-align: center;
+    background: #005AAD;
+    /* width: 100%; */
 }
 
 input {
     display: block;
     border: 1px solid rgba(104, 104, 104, 0.616);
     height: 33px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     margin-bottom: 10px;
     width: 50vw;
     border-radius: 5px;
@@ -426,7 +423,11 @@ button {
     border-radius: 5px;
     padding: 10px;
     width: 70vw;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    margin-bottom: 70px;
 }
 
 /* a img {
@@ -459,7 +460,7 @@ img:hover {
     text-transform: capitalize;
 } */
 
-@media (max-width: 1010px) {
+/* @media (max-width: 1010px) {
     a img {
         width: 80%;
     }
@@ -504,4 +505,4 @@ img:hover {
         padding-top: 0;
         padding-bottom: 10px;
     }
-}
+} */
