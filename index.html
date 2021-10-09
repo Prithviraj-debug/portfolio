@@ -37,7 +37,9 @@
         </div>
 
         <div class="down" id="down">
-            <img src="./src/assets/down.svg" alt="">
+            <button onclick="scrollWin(0, 50)">
+                <img src="./src/assets/down.svg" alt="">
+            </button>
         </div>
     </section>
     
@@ -131,6 +133,18 @@
                 <!-- +91 7057620205 -->
             </div>
         </div>
+
+        <form name="contact" netlify>
+            <p>
+              <label>Name <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
     </footer>
 
     <script type="module" src="./src/index.js"></script>

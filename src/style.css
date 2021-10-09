@@ -15,6 +15,19 @@ body {
     margin: auto;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
 .navbar {
     padding-left: 50px;
     margin: 0 auto;
@@ -91,10 +104,20 @@ body {
     z-index: 9999;
 }
 
+.down button {
+    background: none;
+    border: none;
+}
+
 .down img {
     padding: 0;
     margin: 0;
     width: 20px;
+    cursor: pointer;
+}
+
+.down img:hover {
+    opacity: .7;
 }
 
 /* section two */
@@ -357,11 +380,13 @@ footer .socials i:hover {
     font-size: 20px;
 }
 
-/* 
+
 form {
     margin-bottom: 35px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background: #005AAD;
 }
 
 form h4 {
@@ -371,7 +396,7 @@ form h4 {
 
 input {
     display: block;
-    border: 1px solid rgba(177, 177, 177, 0.151);
+    border: 1px solid rgba(104, 104, 104, 0.616);
     height: 33px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -389,9 +414,10 @@ button {
     font-size: 15px;
     color: white;
     background-color: rgba(92, 108, 202, 0.726);
+    margin-bottom: 30px;
 }
 
-a img {
+/* a img {
     width: 70%;
     height: 100%;
     margin-top: 10px;
@@ -419,7 +445,7 @@ img:hover {
     text-decoration: none;
     color: black;
     text-transform: capitalize;
-}
+} */
 
 @media (max-width: 1010px) {
     a img {
@@ -466,4 +492,4 @@ img:hover {
         padding-top: 0;
         padding-bottom: 10px;
     }
-} */
+}

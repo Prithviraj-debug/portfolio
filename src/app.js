@@ -15,3 +15,7 @@ $(document).ready(function() {
         }
     });
 }); 
+
+function scrollWin(x, y) {
+    window.scrollBy(x, y);
+  }
