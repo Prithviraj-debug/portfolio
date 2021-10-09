@@ -387,6 +387,7 @@ form {
     flex-direction: column;
     align-items: center;
     background: #005AAD;
+    width: 100%;
 }
 
 form h4 {
