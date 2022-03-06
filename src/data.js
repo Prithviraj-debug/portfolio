@@ -62,6 +62,13 @@ const data = [
         pic: "https://github.com/Prithviraj-debug/profile-card/blob/main/pic.png?raw=true",
         name: "Profile Card",
         link: "https://hopeful-fermi-c71412.netlify.app/"
+    },
+    
+    {
+        id: 10,
+        pic: "https://github.com/Prithviraj-debug/Calculator/blob/master/Screenshot%202022-03-06%20122120.png?raw=true",
+        name: "Calculator",
+        link: "https://nifty-jepsen-1a958e.netlify.app/"
     }
     
     // {
